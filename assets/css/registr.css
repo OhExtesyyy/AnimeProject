@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+*{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: 0;
+    outline: none;
+
+
+}
+li{
+    list-style-type: none;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-photo/pink-sakura-flowers-with-dark-background_181083-496.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.poleregistr{
+    width: 420px;
+    border-radius: 25px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.name_registr{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.reg{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px ;
+    background-color: black;
+    
+}
+.input-box input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.poleregistr .btn_poleregistr{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}

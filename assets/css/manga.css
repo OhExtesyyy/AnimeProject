@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    outline: none;
+
+
+}
+
+.blockmang {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.containermang {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.blockmang h4 {
+    font-size: 20px;
+
+}
+
+.blockmang p {
+    font-size: 18px;
+}
+
+.blockmang img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blockmang a {
+    font-size: 23px;
+    text-align: center;
+    transition: color .4s;
+}
+
+.blockmang a:hover {
+    color: rgba(163, 90, 90);
+}
+
+
+@media (max-width:1300px) {
+    .containermang{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:900px) {
+    .containermang{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:600px) {
+    .containermang{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

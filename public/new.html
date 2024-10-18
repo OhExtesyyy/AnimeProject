@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/log.css">
+    <link rel="stylesheet" href="../assets/css/new.css">
+    <title>New</title>
+</head>
+
+<body>
+    <div id="header__block"></div>
+    <div class="logo-prof">
+        <h1 class="text_logo">Новости</h1>
+    </div>
+    <span class="line"></span>
+    <section class="new_div">
+        <div id="block_new" class="new_container"></div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../assets/js/data.js"></script>
+    <script src="../assets/js/functions.js"></script>
+    <script src="../assets/js/components/header.js"></script>
+    <script src="../assets/js/new_anime/get_new.js"></script>
+    <script src="../assets/js/Category/getAll.js"></script>
+    <script>
+        getAll("genres__block")
+    </script>
+</body>
+
+</html>

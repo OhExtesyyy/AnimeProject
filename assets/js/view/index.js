@@ -1,0 +1,2 @@
+
+getAll("genres__block")
